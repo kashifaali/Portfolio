@@ -1,0 +1,1017 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <title>Kashif : Portfolio</title>
+  <meta content="" name="description" />
+  <meta content="" name="keywords" />
+  <link href="assets/img/profile-img.jpg" rel="icon" />
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet" />
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet" />
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet" />
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
+  <link href="assets/css/style.css" rel="stylesheet" />
+  <style>
+    /* Testimonials section */
+    .testimonials .testimonial-item {
+      transition: transform 0.3s ease;
+    }
+
+    .testimonials .testimonial-item:hover {
+      transform: translateY(-6px);
+    }
+
+    .testimonials .testimonial-img {
+      width: 64px;
+      height: 64px;
+      object-fit: cover;
+      border: 3px solid #ff7b00;
+      /* primary accent */
+    }
+
+    .testimonials .quote-icon-left,
+    .testimonials .quote-icon-right {
+      color: #ffd700;
+      /* accent yellow */
+      font-size: 20px;
+      line-height: 0;
+    }
+
+    @keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.preloader-circle {
+  width: 80px; /* Adjust as needed */
+  height: 80px;
+  border: 4px solid #ccc;
+  border-top: 4px solid #007bff; /* Blue or any color for the rotating part */
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+.preloader-img {
+  animation: spin 1s linear infinite;
+}
+
+
+  </style>
+</head>
+
+<body>
+  <div id="preloader-active">
+    <div class="preloader d-flex align-items-center justify-content-center">
+      <div class="preloader-inner position-relative">
+        <div class="preloader-circle"></div>
+        <div class="preloader-img pere-text">
+          <img src="assets/img/Loading-img.png" alt="" />
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- ======= Mobile nav toggle button ======= -->
+  <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
+
+  <!-- ======= Navbar ======= -->
+  <header id="header">
+    <div class="d-flex flex-column">
+      <div class="profile">
+        <img src="assets/img/profile-img.jpg" alt="" class="img-fluid rounded-circle" />
+        <h1 class="text-light"><a href="index.html">Kashif Ali</a></h1>
+        <div class="social-links mt-3 text-center">
+          <a href="https://wa.me/+923060344929" class="twitter"><i class="bx bxl-whatsapp"></i></a>
+          <a href="mailto:kashifali4929@gmail.com" class="facebook"><i class="bx bxl-gmail"></i></a>
+          <a href="https://github.com/kashifaali" class="google-plus" target="_blank">
+            <i class="bx bxl-github"></i>
+          </a>
+
+          <a href="https://www.linkedin.com/in/thekashifali/" class="linkedin" target="_blank">
+            <i class="bx bxl-linkedin"></i>
+          </a>
+
+        </div>
+      </div>
+
+      <nav id="navbar" class="nav-menu navbar">
+        <ul>
+          <li>
+            <a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a>
+          </li>
+          <li>
+            <a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a>
+          </li>
+          <!-- <li>
+            <a href="#blogs-notes" class="nav-link scrollto"><i class="bx bx-server"></i> <span>Blogs</span></a>
+          </li> -->
+          <li>
+            <a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resume</span></a>
+          </li>
+          <li>
+            <a href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Projects</span></a>
+          </li>
+          <li>
+            <a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a>
+          </li>
+        </ul>
+      </nav>
+      <!-- .nav-menu -->
+    </div>
+  </header>
+  <!-- End Navbar -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
+    <div class="hero-container" data-aos="fade-in">
+      <h1>Kashif Ali</h1>
+      <p>
+        <span class="typed" data-typed-items="Full Stack Developer, MERN-Stack developer, Software Engineer"></span>
+      </p>
+    </div>
+  </section>
+  <!-- End Hero -->
+
+  <main id="main">
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container">
+        <div class="section-title">
+          <h2>About</h2>
+          <p style="text-align: justify">
+            Hi, I'm Kashif Ali, a Full-Stack Web Developer with a Bachelor's degree in Computer
+            Science from COMSATS University Islamabad. I have hands-on experience in building
+            responsive and scalable web applications using <b>MERN stack</b> technologies, with a strong
+            focus on both <b>frontend</b> and <b>backend</b> development. I specialize in creating intuitive user
+            interfaces and robust server-side architectures.
+            <br />
+
+            During my internship at <b>CodeDesk Studio</b>, I worked on real-world projects, including a dynamic
+            landing page and a full-stack e-commerce platform. This experience helped me sharpen my skills
+            in <b>React.js, Node.js, and MongoDB</b>, while collaborating in a fast-paced development environment.
+            <br />
+
+            I'm passionate about learning new technologies, contributing to open-source projects on GitHub,
+            and building impactful digital solutions.
+          </p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4" data-aos="fade-right">
+            <img src="assets/img/profile-img.jpg" class="img-fluid" alt="" />
+          </div>
+          <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
+            <h3 style="text-align: center">Full Stack Web Developer</h3>
+            <div class="row">
+              <div class="col-lg-6">
+                <ul>
+                  <li>
+                    <i class="bi bi-chevron-right"></i>
+                    <strong>Birthday:</strong> <span>16 October 2002</span>
+                  </li>
+                  <li>
+                    <i class="bi bi-chevron-right"></i>
+                    <strong>Website:</strong>
+                    <a href="index.html"><span style="cursor: pointer">Portfolio</span></a>
+                  </li>
+                  <li>
+                    <i class="bi bi-chevron-right"></i>
+                    <strong>Phone:</strong>
+                    <a href="https://wa.me/+916265307739">
+                      <span style="cursor: pointer">+923060344929</span></a>
+                  </li>
+                  <li>
+                    <i class="bi bi-chevron-right"></i>
+                    <strong>City:</strong> <span>Vehari, Punjab</span>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-lg-6">
+                <ul>
+                  <li>
+                    <i class="bi bi-chevron-right"></i> <strong>Age:</strong>
+                    <span>22</span>
+                  </li>
+                  <li>
+                    <i class="bi bi-chevron-right"></i>
+                    <strong>Degree:</strong>
+                    <span>BS of Computer Science</span>
+                  </li>
+                  <li>
+                    <i class="bi bi-chevron-right"></i>
+                    <strong>Email:</strong>
+                    <a href="mailto:Kashifbhatt316@gmail.com=test&body=this is a test"><span
+                        class="clk3">kashiali4929@gmail.com</span></a>
+                  </li>
+
+
+                </ul>
+              </div>
+            </div>
+            <p>
+              As a lifelong learner, I am committed to continuous growth and
+              staying updated with the latest advancements in technology fam
+              open to new opportunities, connections, and collaborations
+              within the computer science community.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End About Section -->
+
+    <!-- ======= Facts Section ======= -->
+    <!-- <section
+        id="facts"
+        class="facts section-bg">
+        <div class="container">
+          <div class="section-title">
+            <h2>Facts</h2>
+            <p>
+              Developed diverse web and freelancing projects, showcasing
+              expertise in creating dynamic, responsive websites and delivering
+              customized client solutions.
+            </p>
+          </div>
+
+          <div class="row no-gutters">
+            <div
+              class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch"
+              data-aos="fade-up">
+              <div class="count-box">
+                <i class="bi bi-emoji-smile"></i>
+                <span
+                  data-purecounter-start="0"
+                  data-purecounter-end="7"
+                  data-purecounter-duration="1"
+                  class="purecounter"></span>
+                <p>
+                  <strong>Happy client <br /></strong> (Freelancing)
+                </p>
+              </div>
+            </div>
+
+            <div
+              class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch"
+              data-aos="fade-up"
+              data-aos-delay="100">
+              <div class="count-box">
+                <i class="bi bi-journal-richtext"></i>
+                <span
+                  data-purecounter-start="0"
+                  data-purecounter-end="65"
+                  data-purecounter-duration="1"
+                  class="purecounter"></span>
+                <p>
+                  <strong>Projects <br /></strong>(Web Development)
+                </p>
+              </div>
+            </div>
+
+            <div
+              class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch"
+              data-aos="fade-up"
+              data-aos-delay="200">
+              <div class="count-box">
+                <i class="bi bi-headset"></i>
+                <span
+                  data-purecounter-start="0"
+                  data-purecounter-end="2495"
+                  data-purecounter-duration="1"
+                  class="purecounter"></span>
+                <p>
+                  <strong>Hours Of Coding <br /></strong>(2+ Years)
+                </p>
+              </div>
+            </div>
+
+            <div
+              class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch"
+              data-aos="fade-up"
+              data-aos-delay="300">
+              <div class="count-box">
+                <i class="bi bi-people"></i>
+                <span
+                  data-purecounter-start="0"
+                  data-purecounter-end="1550"
+                  data-purecounter-duration="1"
+                  class="purecounter"></span>
+                <p>
+                  <strong>Followers <br /></strong> (LinkedIn)
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section> -->
+    <!-- End Facts Section -->
+
+    <!-- ======= Blog ======= -->
+
+    <!-- <section
+        id="blogs-notes"
+        class="blogs-notes">
+        <div class="container">
+          <div class="section-title">
+            <h2>Blogs & Notes</h2>
+            <p>
+              Explore my technical blogs and handwritten notes, Synopsis on Full
+              Stack Development, Java, IoT and more.
+            </p>
+          </div>
+
+          <div class="row">
+            <div class="col-lg-4 col-md-6">
+              <div class="blog-item">
+                <img
+                  src="assets/img/mernn.png"
+                  class="img-fluid"
+                  alt="JavaScript Notes" />
+                <h4>MERN Notes (PDF)</h4>
+                <p>Core concepts, MERN Basic to advance, project and more</p>
+                <a
+                  href="assets/img/portfolio/MERN.pdf"
+                  target="_blank"
+                  >Download Notes</a
+                >
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+              <div class="blog-item">
+                <img
+                  src="assets/img/portfolio/Java-Symbol.png"
+                  class="img-fluid"
+                  alt="React Tips" />
+                <h4>Java Crash Course</h4>
+                <p>Java from basics to advance with Source Code</p>
+                <a
+                  href="https://github.com/Kashifbhatt03/Java"
+                  target="_blank"
+                  >Github Link</a
+                >
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+              <div class="blog-item">
+                <img
+                  src="assets/img/portfolio/major.png"
+                  class="img-fluid"
+                  alt="IoT System Architecture" />
+                <h4>IOT Based Obstacle Detection System</h4>
+                <p>College Major Project with Synopsis</p>
+                <a
+                  href="assets/img/portfolio/Kashif's MRP.pdf"
+                  target="_blank"
+                  >Link</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-4 col-md-6">
+              <div class="blog-item">
+                <img
+                  src="assets/img/portfolio/Free.png"
+                  class="img-fluid"
+                  alt="JavaScript Notes" />
+                <h4>Freelance Quotation</h4>
+                <p>
+                  Please find below the detailed quotation for the freelance
+                  project
+                </p>
+                <a
+                  href="assets/img/portfolio/Freelance.pdf"
+                  target="_blank"
+                  >Get Details</a
+                >
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+              <div class="blog-item">
+                <img
+                  src="assets/img/portfolio/interview1.jpeg"
+                  class="img-fluid"
+                  alt="React Tips" />
+                <h4>Interview Q&A</h4>
+                <p>
+                  Here’s a interview Q&As to help you confidently tackle
+                  Interviews
+                </p>
+                <a
+                  href="https://drive.google.com/drive/folders/1yWqGzetWeDoVAxxoNwqax87QguwQVqnN"
+                  target="_blank"
+                  >View</a
+                >
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+              <div class="blog-item">
+                <img
+                  src="assets/img/portfolio/dsaa.png"
+                  class="img-fluid"
+                  alt="IoT System Architecture" />
+                <h4>Data Structure & Algorithm</h4>
+                <p>
+                  Get Data Structure & Algorithm Notes and Code Reference from
+                  GitHub Repo
+                </p>
+                <a
+                  href="https://github.com/Kashifbhatt03/DSA-with-Java"
+                  target="_blank"
+                  >Link</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section> -->
+    <!-- End Blog Section -->
+
+    <!-- ======= Skills Section ======= -->
+    <section id="skills" class="skills section-bg">
+      <div class="container">
+        <div class="section-title">
+          <h2>Skills</h2>
+
+          <!-- Text-Based Skill Categories -->
+          <p style="text-align: start; font-size: 16px">
+            <b>Programming Languages:</b> Java, JavaScript, C++, C<br />
+            <b>Frontend Development:</b> HTML, CSS, JavaScript, React.js,
+            Bootstrap, Tailwind<br />
+            <b>Backend Development:</b> Node.js, Express.js, MongoDB<br />
+            <b>DataBase:</b> MongoDB, Mongoose, MySQL<br />
+            <b>Tools:</b> Git, GitHub, Postman, VS Code, Firebase<br />
+            <b>Others:</b> JWT/Passport Authentication, MVC Architecture, Responsive Design
+          </p>
+
+          <!-- Logo Row -->
+          <div style="
+                display: flex;
+                flex-wrap: wrap;
+                gap: 12px;
+                padding-top: 10px;
+              ">
+            <!-- Programming Languages -->
+            <img src="https://skillicons.dev/icons?i=java" alt="Java" style="height: 32px" />
+            <img src="https://skillicons.dev/icons?i=js" alt="JavaScript" style="height: 32px" />
+
+            <!-- Frontend -->
+            <img src="https://skillicons.dev/icons?i=html" alt="HTML" style="height: 32px" />
+            <img src="https://skillicons.dev/icons?i=css" alt="CSS" style="height: 32px" />
+            <img src="https://skillicons.dev/icons?i=react" alt="React.js" style="height: 32px" />
+            <img src="https://skillicons.dev/icons?i=bootstrap" alt="Bootstrap" style="height: 32px" />
+            <img src="https://skillicons.dev/icons?i=tailwind" alt="Tailwind CSS" style="height: 32px" />
+
+            <!-- Backend -->
+            <img src="https://skillicons.dev/icons?i=nodejs" alt="Node.js" style="height: 32px" />
+            <img src="https://skillicons.dev/icons?i=express" alt="Express.js" style="height: 32px" />
+            <img src="https://skillicons.dev/icons?i=mongodb" alt="MongoDB" style="height: 32px" />
+          </div>
+        </div>
+
+        <div class="row skills-content">
+          <div class="col-lg-6" data-aos="fade-up">
+            <div class="progress">
+              <span class="skill">HTML, CSS <i class="val">100%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                </div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">Bootstrap, Tailwind <i class="val">95%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
+                </div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">JavaScript <i class="val">85%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+                </div>
+              </div>
+            </div>
+            <div class="progress">
+              <span class="skill">Git, GitHub <i class="val">80%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="progress">
+              <span class="skill">React <i class="val">70%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
+                </div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">NodeJS, ExpressJS, MongoDB<i class="val">90%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+                </div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">Java/C++/C <i class="val">60%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Skills Section -->
+
+    <!-- ======= Resume Section ======= -->
+    <section id="resume" class="resume">
+      <div class="container">
+        <div class="section-title">
+          <h2>Resume</h2>
+          <p>
+            Kashif Ali <br />
+            Full Stack Developer
+          </p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-6" data-aos="fade-up">
+            <h3 class="resume-title">Summary</h3>
+            <div class="resume-item pb-0">
+              <p>
+                <em>
+                  As a recent Computer Science graduate from COMSATS University Islamabad and a passionate Full Stack
+                  Web Developer, I am committed to building innovative and scalable digital solutions. With hands-on
+                  experience in developing full-fledged MERN stack applications, I specialize in creating seamless user
+                  experiences and robust backend systems. From crafting responsive interfaces to implementing real-time
+                  features, I enjoy turning complex problems into practical, real-world web solutions that make an
+                  impact.
+
+
+                </em>
+              </p>
+            </div>
+
+            <!-- <h3 class="resume-title">Education</h3>
+              <div class="resume-item">
+                <h4>Bachelor of Technology</h4>
+                <h5>2021 - 2025</h5>
+                <p><em>Samrat Ashok Technological Institute, Vidisha</em></p>
+              </div> -->
+
+            <h3 class="resume-title">Projects</h3>
+
+            <div class="resume-item">
+              <h4>PakVacation – Hotel rental system (MERN Stack)</h4>
+              <p>
+                <em>GitHub:
+                  <a href="https://github.com/kashifaali/PakVacation" target="_blank">View Code</a></em>
+              </p>
+              <ul>
+                <li>
+                  A hotel/property rental system with listing, booking, reviews, and secure user authentication.
+                </li>
+                <li>
+                  Node.js, Express.js, EJS, MongoDB, Cloudinary, Passport.js, Multer
+                </li>
+              </ul>
+            </div>
+
+            <div class="resume-item">
+              <h4>Career Sense – Full Stack Professional Networking Platform</h4>
+              <p>
+                <em>GitHub:
+                  <a href="https://github.com/kashifaali/Career_sense" target="_blank">View Code</a></em>
+              </p>
+              <ul>
+                <li>
+                  A LinkedIn-style web application with user profiles, posts, image uploads, and real-time chat.
+                </li>
+                <li>
+                  React.js, Node.js, Express.js, MongoDB, Tailwind CSS, Socket.IO
+                </li>
+              </ul>
+            </div>
+
+            <div class="resume-item">
+              <h4>Shopyla – Full-Stack E-commerce Store (Internship Project)</h4>
+              <p>
+                <em>GitHub:
+                  <a href="https://github.com/GoriPathan/shopyla_FrontEnd" target="_blank">View Code</a></em>
+              </p>
+              <p>
+                <em>Website:
+                  <a href="https://shopyla.com/" target="_blank">View live</a></em>
+              </p>
+              <ul>
+                <li>
+                  Improved UI and backend logic for a shopping platform.
+                </li>
+
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <h3 class="resume-title">Work Experience</h3>
+
+            <!-- Quasar Digital Solutions Internship -->
+            <div class="resume-item">
+              <h4>Full-Stack Web Development Internship</h4>
+              <h5>June 2024 - August 2024</h5>
+              <p><em>CodeDesk Studio | Vehari</em></p>
+              <ul>
+                <li>
+                  Contributed to two real-time web application projects as a Full-Stack Developer Intern.
+                </li>
+                <li>
+                  Built a dynamic landing page using React.js and Tailwind CSS based on Figma designs.
+                  (<a href="https://eiternal-landing-page.vercel.app" target="_blank">Live Project</a>)
+                </li>
+                <li>
+                  Improved UI and resolved backend issues in a Node.js and Express.js e-commerce platform.
+                  (<a href="https://shopyla.com" target="_blank">Live Project</a>)
+                </li>
+                <li>
+                  Collaborated with developers through GitHub for version control and code reviews.
+                </li>
+                <li>
+                  Gained hands-on experience in React, Node.js, MongoDB, Express, and REST APIs.
+                </li>
+                <li>
+                  Received a certificate of internship for outstanding performance.
+                </li>
+              </ul>
+              <button class="btn11">
+                <a target="_blank" href="https://drive.google.com/file/d/1YuEv8r8FwmxhGAfKqaiNILEegxAjbpYY/view">
+                  View Certificate
+                </a>
+              </button>
+            </div>
+
+            <!-- AUXES IT Solutions Internship -->
+
+
+            <div style="margin-top: 20px" class="text-center" data-aos="fade-up" data-aos-delay="100">
+              <a href="assets/img/Resume/kashif-resume.pdf" download><button class="paraa">Tap to Download
+                  Resume</button></a>
+            </div>
+          </div>
+        </div>
+    </section>
+    <!-- End Resume Section -->
+
+    <!-- ======= Portfolio Section ======= -->
+    <section id="portfolio" class="portfolio section-bg">
+      <div class="container">
+        <div class="section-title">
+          <h2>Projects</h2>
+          <p>
+            I created various Full Stack Projects showing my skills in Full
+            Stack Development
+          </p>
+        </div>
+
+        <div class="row" data-aos="fade-up">
+          <div class="col-lg-12 d-flex justify-content-center">
+            <ul id="portfolio-flters">
+              <li data-filter="*" class="filter-active">
+                All
+              </li>
+              <li data-filter=".filter-app">Front-End</li>
+              <li data-filter=".filter-card">Back-End</li>
+              <li data-filter=".filter-web">React</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="100">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/Auxes.png" class="img-fluid" alt="" />
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/Auxes.png" data-gallery="portfolioGallery" class="portfolio-lightbox"
+                  title="Auxes"><i class="bx bx-plus"></i></a>
+                <a target="_blank" href="http://api.auxes.in/" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/react1.png" class="img-fluid" alt="" />
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/react1.png" data-gallery="portfolioGallery" class="portfolio-lightbox"
+                  title="Shopsy"><i class="bx bx-plus"></i></a>
+                <a target="_blank" href="https://Kashif-shopsy-ecommerce.netlify.app/" title="More Details"><i
+                    class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/KashifOfDeals.png" class="img-fluid" alt="" />
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/KashifOfDeals.png" data-gallery="portfolioGallery"
+                  class="portfolio-lightbox" title="QuickPick E-commerce Website"><i class="bx bx-plus"></i></a>
+                <a target="_blank" href="https://quickpick-ba3l.onrender.com" title="More Details"><i
+                    class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/meta.png" class="img-fluid" alt="" />
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/meta.png" data-gallery="portfolioGallery" class="portfolio-lightbox"
+                  title="Meta Photos"><i class="bx bx-plus"></i></a>
+                <a target="_blank" href="https://meta-photos.onrender.com/" title="More Details"><i
+                    class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/react2.png" class="img-fluid" alt="" />
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/react2.png" data-gallery="portfolioGallery" class="portfolio-lightbox"
+                  title="Starbucks"><i class="bx bx-plus"></i></a>
+                <a target="_blank" href="https://Kashifbhatt03.github.io/Reimagine-Website/" title="More Details"><i
+                    class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/crystallo.png" class="img-fluid" alt="" />
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/crystallo.png" data-gallery="portfolioGallery" class="portfolio-lightbox"
+                  title="Crystallo"><i class="bx bx-plus"></i></a>
+                <a target="_blank" href="http://Kashifbhatt03.github.io/Crystalo" title="More Details"><i
+                    class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/maps.png" class="img-fluid" alt="" />
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/maps.png" data-gallery="portfolioGallery" class="portfolio-lightbox"
+                  title="Location Tracker"><i class="bx bx-plus"></i></a>
+                <a target="_blank" href="https://maps-z7mu.onrender.com/" title="More Details"><i
+                    class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/KashifOfDealsBack.png" class="img-fluid" alt="" />
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/KashifOfDealsBack.png" data-gallery="portfolioGallery"
+                  class="portfolio-lightbox" title="E-commerce Website"><i class="bx bx-plus"></i></a>
+                <a target="_blank" href="https://quickpick-ba3l.onrender.com" title="More Details"><i
+                    class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/react3.png" class="img-fluid" alt="" />
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/react3.png" data-gallery="portfolioGallery" class="portfolio-lightbox"
+                  title="Pizzeria"><i class="bx bx-plus"></i></a>
+                <a target="_blank" href="https://pizzeria-ysv7.onrender.com" title="More Details"><i
+                    class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="btn-div">
+        <button class="btn11">
+          <a href="portfolio-details.html">Tap to see Details</a>
+        </button>
+      </div>
+    </section>
+    <!-- End Portfolio Section -->
+
+    <!-- ======= Testimonials Section ======= -->
+
+    <!-- End Testimonials Section -->
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact section-bg">
+      <div class="container">
+        <div class="section-title">
+          <h2>Contact</h2>
+          <p>Get in touch</p>
+        </div>
+
+        <div class="row" data-aos="fade-in">
+          <div class="col-lg-5 d-flex align-items-stretch">
+            <div class="info">
+              <div class="address">
+                <i class="bi bi-geo-alt"></i>
+                <h4>Location:</h4>
+                <p>Vehari</p>
+              </div>
+
+              <div class="email">
+                <i class="bi bi-envelope"></i>
+                <h4>Email:</h4>
+                <a href="mailto:kashifali4929@gmail.com">
+                  <p>kashifali4929@gmail.com</p>
+                </a>
+              </div>
+
+              <div class="phone">
+                <i class="bi bi-whatsapp"></i>
+                <h4>Whatsapp:</h4>
+                <a href="https://wa.me/+923060344929">
+                  <p>+923060344929</p>
+                </a>
+              </div>
+              <div class="phone">
+                <i class="bi bi-linkedin"></i>
+                <h4>LinkedIn:</h4>
+                <a href="https://www.linkedin.com/in/thekashifali/">
+                  <p>Kashif Ali</p>
+                </a>
+              </div>
+              <div class="phone">
+                <i class="bi bi-github"></i>
+                <h4>GitHub:</h4>
+                <a href="https://github.com/kashifaali">
+                  <p>kashifaali</p>
+                </a>
+              </div>
+
+              <!-- <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3658.161437261706!2d77.80709787510791!3d23.526695328823674!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x397c05cf496b8989%3A0x26599a27d42e8e70!2sDurga%20chowk!5e0!3m2!1sen!2sin!4v1716875922772!5m2!1sen!2sin"
+                  width="100%"
+                  height="290px"
+                  style="border: 0"
+                  allowfullscreen=""
+                  loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"></iframe> -->
+            </div>
+          </div>
+          <div class="col-lg-7 mt-5 mt-lg-0 d-flex flex-column align-items-stretch">
+            <div class="section-title">
+              <p>
+                Feel free to reach out for any freelance project
+                collaborations or queries. <br />
+                I'm always open to new opportunities—just drop a message:
+              </p>
+            </div>
+            <form class="php-email-form">
+              <div class="row">
+                <div class="form-group col-md-6">
+                  <label for="name">Your Name</label>
+                  <input type="text" name="name" class="form-control" id="uname" required />
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="name">Your Email</label>
+                  <input type="email" class="form-control" name="email" id="email" required />
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="name">Subject</label>
+                <input type="text" class="form-control" name="subject" id="subject" required />
+              </div>
+              <div class="form-group">
+                <label for="name">Message</label>
+                <textarea id="msg" class="form-control" name="message" rows="10" required></textarea>
+              </div>
+              <p style="color: rgb(40, 235, 40)" class="form-messege11"></p>
+              <!-- <div class="my-3">
+                  <div
+                    class="loading"
+                    style="display: none">
+                    Loading...
+                  </div>
+                  <div
+                    class="error-message"
+                    style="display: none"></div>
+                  <div
+                    class="sent-message"
+                    style="display: none">
+                    Your message has been sent. Thank you!
+                  </div>
+                </div> -->
+              <div class="text-center">
+                <button onclick="sendWA()" type="submit">
+                  Send Message
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Contact Section -->
+  </main>
+  <!-- End #main -->
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="container">
+      <div class="credits">
+        Designed by
+        <a href="https://www.linkedin.com/in/thekashifali/">Kashif Ali</a>
+      </div>
+    </div>
+  </footer>
+  <!-- End  Footer -->
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center" title="Back to top"><i
+      class="bi bi-arrow-up-short"></i></a>
+  <script>
+    function sendWA() {
+      var phoneNumber = '+923060344929';
+      var name = document.querySelector('input[name="name"]').value;
+      var email = document.querySelector('input[name="email"]').value;
+      var subject = document.querySelector('input[name="subject"]').value;
+      var message = document.querySelector('textarea[name="message"]').value;
+      var para = document.querySelector('.form-messege11');
+
+      var url =
+        'https://wa.me/' +
+        phoneNumber +
+        '?text=' +
+        'Name: ' +
+        encodeURIComponent(name) +
+        '%0a' +
+        'Email: ' +
+        encodeURIComponent(email) +
+        '%0a' +
+        'Subject: ' +
+        encodeURIComponent(subject) +
+        '%0a' +
+        'Message: ' +
+        encodeURIComponent(message);
+
+      para.innerHTML = 'Redirecting to WhatsApp...';
+      para.style.display = 'block';
+
+      // Hide after 5 seconds
+      setTimeout(function () {
+        para.innerHTML = '';
+        para.style.display = 'none';
+      }, 5000);
+
+      window.open(url, '_blank').focus();
+    }
+  </script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+  <!-- <script type="text/javascript">
+      (function () {
+        emailjs.init({
+          publicKey: 'rPQ2xd9-2HLpWgmp4',
+        });
+      })();
+    </script> -->
+  <script src="./assets/js/email.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/typed.js/typed.umd.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>
